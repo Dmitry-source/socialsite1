@@ -1,0 +1,245 @@
+* {
+    box-sizing:border-box;
+}
+
+/* Desktop */
+@media screen and (min-width: 931px) {
+
+    .wrapper {
+        position: relative;
+        width: 1800px;
+        height: 1980px;
+    }
+
+    .header {
+        position: absolute;
+        width: 1170px;
+        height: 37px;
+        left: 315px;
+        top: 37px;
+    }
+
+    .header-content {
+        position: absolute;
+        width: 1170px;
+        height: 37px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .header-logo {
+        position: absolute;
+        width: 215px;
+        height: 37px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .basket {
+        position: absolute;
+        width: 142px;
+        height: 24px;
+        left: 1028px;
+        top: 6px;
+        
+    }
+
+    .basket-logo {
+        position: absolute;
+        left: 0%;
+        right: 80.28%;
+        top: 0%;
+        bottom: 4.17%;
+    }
+
+    .basket-name {
+        position: absolute;
+        left: 26.76%;
+        right: 21.83%;
+        top: 17%;
+        bottom: 4.17%;
+    }
+
+    .basket-image {
+        position: absolute;
+        left: 85.21%;
+        right: 0%;
+        top: 12.5%;
+        bottom: 0%;
+        
+    }
+
+    .basket-count {
+        position: absolute;
+        width: 5px;
+        height: 15px;
+        top: 6px;
+        left: 129px;
+        right: 8px;
+        bottom: 3px;
+        
+
+    }
+
+    .catalog {
+        position: absolute;
+        width: 1200px;
+        height: 1719px;
+        left: 300px;
+        top: 134px;
+    }
+
+    .catalog-header {
+        position: relative;
+        width: 269px;
+        height: 39px;
+        margin: auto;
+    }
+
+    /* .catalog-content {
+
+    } */
+
+    .item {
+        position: relative;
+        display: inline-block;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 40px;
+        width: 270px;
+        height: 380px;
+        left: 0px;
+        top: 40px;
+        border: 1px solid #DEDEDE;
+        box-sizing: border-box;
+        
+
+    }
+
+    .item-image {
+        position: absolute;
+        top: 10px;
+        bottom: 170px;
+        left: 35px;
+        right: 35px;
+        
+
+        /* background: url(image.png); */
+
+    }
+
+    .item-name {
+        position: absolute;
+        top: 244px;
+        bottom: 73px;
+        left: 20px;
+        right: 20px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21.7px;
+
+        /* or 21px */
+        text-align: center;
+
+        color: #000000;
+
+    }
+
+    .item-price {
+        position: absolute;
+        top: 322px;
+        bottom: 35px;
+        left: 101px;
+        right: 102px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 130%;
+
+        /* or 23px */
+        text-align: center;
+
+        color: #000000;
+
+    }
+
+    .item-addtobasket{
+        position: absolute;
+        top: 330px;
+        bottom: 10px;
+        left: 38px;
+        right: 46px;
+
+        height: 40px;
+        width: 186px;
+
+        background: #296DC1;
+
+        border: none;
+        display: none;
+    }
+
+    .item-presenseinbasket{
+        position: absolute;
+        top: 330px;
+        bottom: 10px;
+        left: 38px;
+        right: 46px;
+
+        height: 40px;
+        width: 186px;
+
+        background: #00A82D;
+
+        border: none;
+        display: none;
+    }
+
+    .item-baskettext{
+        position: absolute;
+        top: 13px;
+        bottom: 11px;
+        left: 10px;
+        right: 10px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 130%;
+
+        /* identical to box height, or 16px */
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+
+    /* .footer {
+
+    } */
+
+}
+
+/* 930 */
+@media screen and (min-width: 930px) and (max-width: 691px) {}
+
+
+/* 690 */
+@media screen and (min-width: 690px) and (max-width: 511px) {}
+
+
+/* 510 */
+@media screen and (min-width: 510px) and (max-width: 321px) {}
+
+
+
+/* 320 */
+@media screen and (min-width: 320px) and (max-width: 0px) {}

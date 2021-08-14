@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'taggit',
 
     'shop.apps.ShopConfig',
+    'cart.apps.CartConfig',
 
 ]
 
@@ -67,7 +68,12 @@ MIDDLEWARE = [
 
     'corsheaders.middleware.CorsMiddleware',  
     'django.middleware.common.CommonMiddleware',
+
+    'django.contrib.sessions.middleware.SessionMiddleware'
 ]
+
+
+CART_SESSION_ID = 'cart'
 
 AUTH_USER_MODEL = 'accounts.Account'
 

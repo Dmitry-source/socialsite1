@@ -1,0 +1,94 @@
+{% comment %} {% extends "shop/base.html" %} {% endcomment %}
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Каталог</title>
+    <meta charset="utf-8" />
+    <link href="{% static "shop/css/reset.css" %}" rel="stylesheet">
+
+    <link href="{% static "shop/css/fonts.css" %}" rel="stylesheet">
+    
+    <link href="{% static "shop/css/list1.css" %}" rel="stylesheet">
+    
+
+    <script type="text/javascript" src="{% static "shop/js/jquery.js" %}"></script>
+    <script type="text/javascript" src="{% static "shop/js/list1.js" %}"></script>
+    
+
+</head>
+
+
+<body>
+
+    <!-- wrapper -->
+    <div class="wrapper">
+
+
+        <!-- pageheader -->
+        <header class="header">
+
+            <div class="header-content">
+
+                <div class="header-logo">
+                    <img src="{% static "shop/images/lp_logo 1.svg" %}">
+                </div>
+            
+                <div class="basket">
+        
+                    <div class="basket-logo">
+                        <img src="{% static "shop/images/Basket-logo.svg" width="28" height="23" %}">
+                    </div>
+        
+                    <div class="{% static "shop/basket-name basket-font" %}">
+                        Корзина
+                    </div>
+        
+                    <div class="basket-image ">
+                        <img src="{% static "shop/images/Ellipse1.svg" width="21" height="21"%}">
+                    </div>
+
+                    <div id="basket-count" class="basket-count basket-count-font">
+                        0
+                    </div>
+        
+                    
+        
+                </div>
+
+            </div>
+
+        </header>
+
+
+        
+
+        <!-- catalog -->
+        <div class="catalog">
+
+            <div class="catalog-header h1">
+                Каталог товаров
+            </div>
+
+            <div id="catalog-content" class="catalog-content"></div>
+           
+        </div>
+
+
+        <div class="footer">
+
+
+        </div>
+
+
+
+
+    </div>
+
+</body>
+
+
+</html>
